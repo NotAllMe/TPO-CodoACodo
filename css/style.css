@@ -21,9 +21,9 @@ img {
 }
 /*Estilos Header*/
 .main-header {
-padding: 50px;
+padding: 0px;
 border: 0px;
-margin: 50px;
+margin: 40px;
 }
 .main-header-title {
   text-align: left;
@@ -290,7 +290,7 @@ float: left;
   .main-header-title {
     width: 100%;
     font-size: 3em;
-    margin: 0;
+    margin: 20px;
   }
   .main-nav {
     visibility: visible;
@@ -339,7 +339,7 @@ float: left;
 
 
 .botonimagen1 {
-  background-image:url(img/1.ico);
+  background-image:url("../img/1.ico");
   background-repeat:no-repeat;
   height:135px;
   width:135px;
@@ -347,7 +347,7 @@ float: left;
 }
 
 .botonimagen2 {
-  background-image:url(img/2.ico);
+  background-image:url("../img/2.ico");
   background-repeat:no-repeat;
   height:135px;
   width:135px;
@@ -355,7 +355,7 @@ float: left;
 }
 
 .botonimagen3 {
-  background-image:url(img/3.ico);
+  background-image:url("../img/3.ico");
   background-repeat:no-repeat;
   height:135px;
   width:135px;
@@ -363,9 +363,10 @@ float: left;
 }
 
 .botonimagen4 {
-  background-image:url(img/4.ico);
+  background-image:url("../img/4.ico");
   background-repeat:no-repeat;
   height:135px;
   width:135px;
   background-position:center;
 }
+
