@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firulais Resort</title>
-<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-<link rel="stylesheet" href="./CSS/styles.css">
+     <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=none, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <title>Refugio Huellitas de Amor</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-<h1> Refugio Huellitas de Amor </h1>
-<nav>
-    <a href="index.html">
-        <img width="100" src="./img/LOGO.png" alt="logo">
-    </a>
-    <a href="index.html">Home</a>
-    <a href="contacto.html">Contacto</a>
-    <a href="contacto.html">Donaciones</a>
-</nav>
+    <header class="main-header">
+
+        <nav class="main-nav" id="main-nav">
+
+            <div class="container container-flex">
+
+                <div class="main-header-container">
+                    <img src="./img/LOGO.png" alt="Logo" width="200" height="200">
+                    <h1 class="main-header-title">
+                    <span class="word1">Refugio</span><br>
+                    <span class="word2">Huellitas</span><br>
+                    <span class="word3">de Amor</span>
+                    </h1>
+                </div>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="index.html">
+                                <img src="./img/1.ico" alt="">
+                            </a>
+                            <a href="nosotros.html">
+                               <img src="./img/2.ico" alt="">
+                            </a>
+                            <a href="apoyo.html">
+                                <img src="./img/3.ico" alt="">
+                            </a>
+                            <a href="contacto.html">
+                                <img src="./img/4.ico" alt="">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </div>
+
+
+
+        </nav>
     </header>
-    <main>
+    <main class = "main">
 <div>
 <h2> Conocenos : </h2>
 <p>Somos un refugio sin fines de lucro dedicado a rescatar, rehabilitar y encontrar hogares amorosos para perros en situación de calle o abandono. Nuestro objetivo principal es brindarles una segunda oportunidad a estos peludos amigos y darles la oportunidad de ser parte de una familia que los ame y cuide por el resto de sus vidas.<br>
@@ -35,17 +65,36 @@
     ¡Te esperamos!</p>
 </div>
     </main>
-    <footer>
-        <p> :. Los amigos no se compran .:</p><br>
-        <nav>
-            <a href="https://api.whatsapp.com/send?phone=+5493512820679"> Contactanos
-             <img width="25" src="./img/whatsapp_1.png" alt="Logo whatsapp">   
-            </a>
-            
-            <a href="https://www.instagram.com/"> Seguinos
-                <img width="25" src="./img/instagram.png" alt="Logo Instagram">   
-            </a> 
-        </nav>  
+    <footer class="main-footer">
+        <div class="footer-sections">
+            <section class="footer-section">
+                <h2 class="footer-title">Enlaces de Interés</h2>
+                <p class="footer-txt">Instagram</p>
+                <p class="footer-txt">Facebook</p>
+                <p class="footer-txt">Youtube</p>
+            </section>
+            <section class="footer-section">
+                <h2 class="footer-title">Contacto</h2>
+                <p class="footer-txt">Telefono: +5491100303456</p>
+                <p class="footer-txt">Correo: refugiohuellitasdeamor@corrreo.com</p>
+            </section>
+            <section class="footer-section">
+                <h2 class="footer-title">Suscribete al Boletín Mensual</h2>
+                <p class="footer-txt">Entérate antes de todas las Novedades</p>
+            </section>
+            <section class="footer-section">
+                <h2 class="footer-title">Politicas de Privacidad</h2>
+                <p class="footer-txt">Cookies</p>
+                <p class="footer-txt">Terminos y Condiciones</p>
+            </section>
+        </div>
+        <p class="copy">Refugio Huellitas de Amor - © 2023 - Todos los Derechos Reservados</p>
     </footer>
+
+    <script src="./js/script.js" ></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/footer.js"></script>
+
 </body>
+
 </html>
