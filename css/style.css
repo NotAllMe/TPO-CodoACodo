@@ -247,8 +247,61 @@ float: left;
   font-size: 2em;
   color: #ff4e00;
 }
+/*Estilos Apoyo*/
+#flyer_donaciones{
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  
+}
+.main-apoyo {
+  padding: 10px;
+ 
+}
+
+.apoyo-tips {
+  
+  margin-bottom: 60px;
+  text-align: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+
+  
+}
+.apoyo-icon{
+  width: 100px;
+  margin-inline: 40%;
+
+}
+.tip-apoyo {
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+
+}
+.tip-txt-apoyo {
+  text-align: justify;
+  margin: 20px;
+  display: inline-flex;
+  justify-content: center;
+
+}
+.tip-apoyo-icon {
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  
+
+}
 
 /*estilos del footer*/
+
 .main-footer {
   background: #151515;
   color: white;
@@ -264,6 +317,7 @@ float: left;
 .copy {
   color: #555;
 }
+
 /*estilos para tablet*/
 
 @media screen and (min-width: 768px) {
@@ -284,7 +338,7 @@ float: left;
     justify-content: space-between;
   }
   .main-header-container {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .main-header-title {
@@ -370,14 +424,13 @@ float: left;
   background-position:center;
 }
 
+/*Estilos Adopcion*/
 
 .subtexto {
  
   font-size: 20px;
   text-align: left;
   margin-left: 15px;
-
-
  
 }
 
@@ -392,7 +445,6 @@ float: left;
   position: relative;
   text-align: center;
   
- 
  
 }
 
@@ -437,8 +489,6 @@ float: left;
   transition: opacity 500ms;
 
 }
-
-
 
 .textarjeta{
   font-size: 10px;
