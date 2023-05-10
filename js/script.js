@@ -44,3 +44,17 @@ let mainNav=document.getElementById('main-nav');
 btnMenu.addEventListener('click',function(){
 mainNav.classList.toggle('mostrar');});
 
+//barra de navegacion
+// let cad= `<h1> hola mundo</h1>`
+
+/*`
+
+`*/
+
+// document.querySelector(".main-header").innerHTML=cad;
+
+/*/Footer
+let cadFooter=`
+
+`
+document.querySelector("main-footer").innerHTML=cadFooter;*/
