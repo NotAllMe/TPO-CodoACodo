@@ -18,7 +18,7 @@ let headerCAD = `
                 <a href="index.html">
                     <img src="./img/1.ico" alt="">
                 </a>
-                <a href="nosotros.html">
+                <a href="comunidad.html">
                    <img src="./img/2.ico" alt="">
                 </a>
                 <a href="apoyo.html">
