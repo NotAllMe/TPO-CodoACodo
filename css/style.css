@@ -308,13 +308,16 @@ img {
   text-align: center;
   color: #212121;
   font-size: 2em;
+  
 }
 
 .apoyo-title {
+  
   margin: 20px auto;
   text-align: center;
   color: #212121;
   font-size: 1.5em;
+  
 }
 
 .apoyo-tips {
@@ -324,7 +327,7 @@ img {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-
+  
 
 }
 
@@ -334,25 +337,27 @@ img {
 
 }
 
-.tip-apoyo {
-  border: 3px solid #ccc;
+.tip-apoyo:hover {
+  border: solid #ccc;
   border-radius: 10px;
   padding: 5px;
   margin: 15px;
   text-align: center;
+  border-top-left-radius: 4%;
+  border-color: #212121;
+  border-width: 1px;
   
 }
 
 .tip-ayuda {
   
-  border-radius: 4%;
   padding: 5px;
   margin-bottom: 2%;
   text-align: center;
-  
+
 }
 
-.tip-txt-apoyo {
+.tip-txt-apoyo{
   font-size: 18px;
   text-align: justify;
   margin: 20px;
