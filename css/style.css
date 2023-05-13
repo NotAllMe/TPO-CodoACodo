@@ -611,7 +611,7 @@ img {
 .grandiv {
 
   display: grid;
-  /* grid-template-columns: repeat( 3,400px); */
+
 
   justify-content: center;
   align-items: center;
@@ -632,8 +632,23 @@ img {
       "tarjetas tarjetas"
       "tarjetas tarjetas"
       "tarjetas tarjetas";
+     }
 
-  }
+  .container-flex {
+      flex-direction: column;
+    }
+}
+
+
+
+.divlogo{
+  display: flex;
+  padding-top: 10px;
+  justify-content: left
+}
+
+.divbotonheader{
+  display: flex;
 }
 
 @media screen and (max-width: 600px) {
@@ -649,6 +664,27 @@ img {
       "tarjetas"
       "tarjetas"
       "tarjetas"
-      "tarjetas"
+      "tarjetas";
   }
+
+  .container-flex {
+    flex-direction: column;
+  }
+.divbotonheader {
+   display: inline-block;
+ }
+
+ .divbotonheader img{
+   width: 200px;
+   box-align: center;
+ }
+
+ .divlogo img {
+  max-width: 100%;
+  height: auto;
+ }
+
+.container-tips{
+  display: block;
+ }
 }
