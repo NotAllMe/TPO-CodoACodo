@@ -448,16 +448,16 @@ margin: -3%;
 }
 
 .footer-title {
-  border-bottom: 1px dotted #555;
-  padding-bottom: 20px;
+  border-bottom: 2px dotted #ffffff;
+  padding-bottom: 10px;
 }
 
 .footer-txt {
-  color: #555;
+  color: #ffffff;
 }
 
 .copy {
-  color: #555;
+  color: #ffffff;
 }
 
   .icon-menu {
