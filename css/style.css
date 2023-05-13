@@ -284,18 +284,79 @@ img {
   font-size: 2em;
   color: #ff4e00;
 }
+/*Estilos Comunidad*/
+
+.box-principal-perros{
+
+display:inline-flex;
+margin: -3%;
+
+}
+
+.nosotros{
+  font-weight: 50;
+  text-rendering:optimizeLegibility;
+  border-style: inset;
+  border-radius: 20px;
+  border-width: 3px;
+  background-color: #1e1e1e23;
+  object-fit: fill;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0 0 20px rgb(119, 119, 119);
+}
+
+#app{
+  border-style: outset;
+  border-radius: 20px;
+  border-width: 3px;
+  background-color: #fb73392e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2.5%;
+}
+
+.box-perros {
+  text-align: justify;
+  font-style: oblique;
+  font-size: 18px;
+  border: 2px solid #ff4e00;
+  border-radius: 2%;
+  width: 500px;
+  margin: 8%;
+  padding: 2%;
+  box-shadow: 0 0 20px rgb(119, 119, 119);
+ 
+}
+.adoptados{
+  
+  width: 350px;
+  height: 200px;
+  object-fit: scale-down;
+}
 
 /*Estilos Apoyo*/
 .flyer{
 
   background-color: rgb(174, 174, 174);
   padding: 2%;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
+
 #flyer_donaciones {
   width: 1000px;
   display: flex;
   margin: 0 auto;
   border-radius: 20px;
+  box-shadow: 0 0 20px rgb(52, 51, 51);
   
 }
 
@@ -324,10 +385,10 @@ img {
 
   margin-bottom: 60px;
   text-align: center;
-  display: grid;
+  display:grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  
+ 
 
 }
 
@@ -347,6 +408,7 @@ img {
   border-color: #212121;
   border-width: 1px;
   box-shadow: 0 0 10px black;
+  
   
 }
 
@@ -398,19 +460,6 @@ img {
   color: #ffffff;
 }
 
-/*estilos para tablet*/
-
-/*@media screen and (min-width: 768px) {
-  .slider {
-    height: 400px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .slider {
-    height: 500px;
-  }*/
-
   .icon-menu {
     display: none;
   }
@@ -461,13 +510,6 @@ img {
     padding: 0 40px;
   }
 
-  /*.container-games {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    margin-bottom: 64px;
-  }*/
-
   .container-tips {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -483,7 +525,6 @@ img {
   .copy {
     text-align: center;
   }
-
 
 
 .botonimagen1 {
@@ -605,7 +646,7 @@ img {
 }
 
 .adoptar:hover {
-  background-color: red;
+  background-color: rgb(237, 102, 6);
 }
 
 .grandiv {

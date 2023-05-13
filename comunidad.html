@@ -13,35 +13,41 @@
 
 <body>
     <header class="main-header"></header>
-    <main class="main">
-        <div>
-            <h2 class="apoyo-title"> Sobre nosotros : </h2>
-            <p class="tip-txt-apoyo">Somos un refugio sin fines de lucro dedicado a rescatar, rehabilitar y encontrar
-                hogares amorosos para perros en situación de calle o abandono. Nuestro objetivo principal es brindarles
-                una segunda oportunidad a estos peludos amigos y darles la oportunidad de ser parte de una familia que
-                los ame y cuide por el resto de sus vidas.<br>
 
-                En nuestro refugio, nos aseguramos de que todos nuestros perros reciban la atención y cuidado que
-                necesitan. Trabajamos con un equipo de voluntarios dedicados y expertos en el cuidado de animales,
-                quienes se aseguran de que cada uno de nuestros perros esté feliz y saludable.<br>
+    <main class = "main">
+<div class="nosotros">
+<h2 class="apoyo-title"> SOBRE NOSOTROS : </h2>
+<p class="tip-txt-apoyo">Somos un refugio sin fines de lucro dedicado a rescatar, rehabilitar y encontrar hogares amorosos para perros en situación de calle o abandono. Nuestro objetivo principal es brindarles una segunda oportunidad a estos peludos amigos y darles la oportunidad de ser parte de una familia que los ame y cuide por el resto de sus vidas.<br>
 
-                En nuestro refugio, ofrecemos servicios de adopción, y te ayudaremos a encontrar al compañero peludo
-                perfecto para ti. Si estás interesado en adoptar a un perro, estaremos encantados de mostrarte los
-                perros disponibles y asesorarte en todo el proceso de adopción.<br>
+    En nuestro refugio, nos aseguramos de que todos nuestros perros reciban la atención y cuidado que necesitan. Trabajamos con un equipo de voluntarios dedicados y expertos en el cuidado de animales, quienes se aseguran de que cada uno de nuestros perros esté feliz y saludable.<br>
+    
+    En nuestro refugio, ofrecemos servicios de adopción, y te ayudaremos a encontrar al compañero peludo perfecto para ti. Si estás interesado en adoptar a un perro, estaremos encantados de mostrarte los perros disponibles y asesorarte en todo el proceso de adopción.<br>
+    
+    También ofrecemos servicios de voluntariado, donde podrás ayudar a cuidar y jugar con nuestros perros, y hacer una diferencia positiva en sus vidas. Además, si no puedes adoptar o ser voluntario, puedes contribuir de otras maneras, como haciendo donaciones o promoviendo nuestra labor a través de las redes sociales.<br>
+    
+    En el Refugio de Perros, creemos que cada perro merece amor, atención y una vida feliz.<br><br> Únete a nuestra comunidad y ayúdanos a hacer la diferencia en las vidas de estos seres leales y cariñosos.<br>
+    ¡Te esperamos!</p>
+</div>
+<div class="apoyo-title">
+    <h2> ALGUNOS DE NUESTROS FINALES FELICES : </h2>
+</div><br>
+    <div id="app" >
 
-                También ofrecemos servicios de voluntariado, donde podrás ayudar a cuidar y jugar con nuestros perros, y
-                hacer una diferencia positiva en sus vidas. Además, si no puedes adoptar o ser voluntario, puedes
-                contribuir de otras maneras, como haciendo donaciones o promoviendo nuestra labor a través de las redes
-                sociales.<br>
-
-                En el Refugio de Perros, creemos que cada perro merece amor, atención y una vida feliz.<br><br> Únete a
-                nuestra comunidad y ayúdanos a hacer la diferencia en las vidas de estos seres leales y cariñosos.<br>
-                ¡Te esperamos!</p>
+    <div class="box-principal-perros" v-for="perro in perros" :key="perro.id">
+        <div class="box-perros">
+      <h2>{{ perro.nombre }}</h2>
+      <img class="adoptados" :src="perro.foto" :alt="perro.nombre">
+      <p>{{ perro.historia }}</p>
         </div>
-    </main><br>
+    </div>
+    </div>
+
+    </main>
     <footer class="main-footer"></footer>
     <script src="./js/header.js"></script>
     <script src="./js/footer.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/perros.js"></script>
 
 </body>
 

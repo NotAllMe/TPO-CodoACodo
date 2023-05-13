@@ -1,0 +1,40 @@
+{
+    "perros": [
+      {
+          "id":1,
+        "nombre": "Maximiliano",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eh70n19zgyZcxiglxac_5uAl82wBpcODKQ&usqp=CAU",
+        "historia": "Maximiliano fue rescatado de las calles donde vivía en condiciones deplorables. Estaba desnutrido y enfermo. Después de recibir los cuidados necesarios, encontró un hogar lleno de amor donde ahora es el rey de la casa. Es un perro leal y cariñoso que ha dejado atrás su pasado difícil."
+      },
+      {
+          "id":2,
+        "nombre": "Luna",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1UPAmUS158VyXmPD7H9pTFELcy90QKa9QDg&usqp=CAU",
+        "historia": "Luna era una cachorrita abandonada a su suerte en una caja de cartón. Fue encontrada temblando de frío y desamparo. Luna es ahora una perrita juguetona y llena de energía que ha encontrado la felicidad que siempre mereció."
+      },
+      {
+          "id":3,
+        "nombre": "Simón",
+        "foto": "https://t1.ea.ltmcdn.com/es/posts/2/3/8/el_comportamiento_de_los_perros_adoptados_20832_0_600.jpg",
+        "historia": "Simón pasó la mayor parte de su vida en las calles, enfrentando el hambre y la soledad. Finalmente encontró una familia que le dio el amor y la estabilidad que nunca tuvo. Simón es ahora un perro agradecido y devoto que disfruta de largos paseos y siestas bajo el sol."
+      },
+      {
+          "id":4,
+        "nombre": "Isabella",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27LX7ffvjx6laLbgNLPXBsrNeWGQ-rDZl1Q&usqp=CAU",
+        "historia": "Isabella fue abandonada en un basurero junto a sus hermanos. Afortunadamente, fueron encontrados y llevados al refugio donde recibieron atención médica y cariño. Isabella encontró un hogar cálido y amoroso donde ahora es una perrita feliz y consentida. Su amor incondicional ilumina la vida de todos los que la rodean."
+      },
+      {
+          "id":5,
+        "nombre": "Dante",
+        "foto": "https://media.biobiochile.cl/wp-content/uploads/2019/02/agustin.jpg",
+        "historia": "Dante fue rescatado de una situación de maltrato extremo. Su cuerpo estaba marcado por cicatrices y tenía miedo constante. Sin embargo, con amor y paciencia, se transformó en un perro confiado y amoroso. Una familia amante le dio un hogar seguro donde ahora disfruta de largos paseos y siestas acogedoras."
+      },
+      {
+          "id":6,
+        "nombre": "Valentina",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8JdLxmvDggiMlhglGrRmgrJPFPJWOrDs-bw&usqp=CAU",
+        "historia": "Valentina fue encontrada vagando sola en las calles, desnutrida y con heridas abiertas. Fue llevada al refugio donde recibió cuidados intensivos y amor. Valentina encontró una familia que la acogió y ahora es una perrita alegre y saludable. Su espíritu valiente y amoroso es una inspiración para todos."
+      }
+      ]
+     }
