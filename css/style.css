@@ -747,6 +747,8 @@ margin: -3%;
 /*Estilos Contacto*/
 
 #body-contacto{
+  padding: 0;
+  margin: 0;
   background-color: #fff;
   line-height: 1.9;
   color: #8c8c8c;
@@ -756,16 +758,6 @@ margin: -3%;
 .selector-for-some-widget {
   box-sizing: content-box;
 }
-
-
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
-  line-height: 1.9;
-  color: #8c8c8c;
-  position: relative;
-}
-
 
 .form-control {
   border: none;
