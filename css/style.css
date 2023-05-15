@@ -294,6 +294,7 @@ margin: -3%;
 }
 
 .nosotros{
+ 
   font-weight: 50;
   text-rendering:optimizeLegibility;
   border-style: inset;
@@ -310,10 +311,6 @@ margin: -3%;
 }
 
 #app{
-  border-style: outset;
-  border-radius: 20px;
-  border-width: 3px;
-  background-color: #fb73392e;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -352,7 +349,8 @@ margin: -3%;
 }
 
 #flyer_donaciones {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   display: flex;
   margin: 0 auto;
   border-radius: 20px;
@@ -697,6 +695,11 @@ margin: -3%;
   .container-flex {
       flex-direction: column;
     }
+
+    .apoyo-tips {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }  
 }
 
 
@@ -746,6 +749,20 @@ margin: -3%;
   .container-tips {
     display: block
   }
+
+  .apoyo-tips{
+  display:block;
+  }
+  .tip-txt-apoyo{
+    font-size: 15px;
+    margin: 10%;
+  }
+
+  .nosotros{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
 /*Estilos Contacto*/
