@@ -730,21 +730,16 @@ margin: -3%;
   .container-flex {
     flex-direction: column;
   }
-.divbotonheader {
-   display: inline-block;
- }
 
- .divbotonheader img{
-   width: 200px;
-   box-align: center;
- }
+  .divbotonheader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
 
- .divlogo img {
-  max-width: 100%;
-  height: auto;
- }
-
-.container-tips{
-  display: block;
- }
+  .divbotonheader img {
+    width: 100%;
+    height: auto;
+    max-width: 135px;
+  }
 }
