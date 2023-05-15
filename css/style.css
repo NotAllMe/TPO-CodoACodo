@@ -742,6 +742,10 @@ margin: -3%;
     height: auto;
     max-width: 135px;
   }
+
+  .container-tips {
+    display: block
+  }
 }
 
 /*Estilos Contacto*/
