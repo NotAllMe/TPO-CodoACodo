@@ -809,6 +809,8 @@ margin: -3%;
   }
 
   .box-principal-perros{
+    
+    width: min-content;
     justify-content: center;
   }
 
