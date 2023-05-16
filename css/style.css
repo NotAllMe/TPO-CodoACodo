@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none
+}
+
 @font-face {
   font-family: 'Poppins';
   src: url('./fonts/Poppins-Bold.ttf');
@@ -391,9 +395,7 @@ display:inline-flex;
 
 .apoyo-icon {
   width: 100px;
-  margin-inline: 40%;
-
-}
+  }
 
 .tip-apoyo:hover {
   border: solid #ccc;
@@ -810,8 +812,8 @@ display:inline-flex;
   .box-principal-perros{
     justify-content: space-around;
     max-width: 400px;
-    
-}
+   }
+  }
 
 /*Estilos Contacto*/
 
@@ -892,5 +894,4 @@ display:inline-flex;
 
 .contacto-iframe-div {
   display: inline;        
-}
 }
