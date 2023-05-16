@@ -804,18 +804,13 @@ margin: -3%;
 
  .box-perros{
   display: inline-block;
-  /*width: min-content;*/
-  max-width: 500px;
+  width: min-content;
+  
   }
 
   .box-principal-perros{
-    
-    max-width: 500px;
-    padding-left: 0;
-    padding-right: 0;
-    
+    justify-content: center;
   }
-  /*Agrego esto para ver si se arregla el responsive de la API*/
 
 }
 
