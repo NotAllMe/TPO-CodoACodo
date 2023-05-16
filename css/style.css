@@ -802,6 +802,12 @@ margin: -3%;
     flex-direction: column;
   }
 
+ .box-perros{
+  display: inline-block;
+  width: fit-content;
+  }
+  /*Agrego esto para ver si se arregla el responsive de la API*/
+
 }
 
 /*Estilos Contacto*/
