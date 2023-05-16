@@ -810,6 +810,7 @@ margin: -3%;
 
   .box-principal-perros{
     justify-content: space-around;
+    max-width: 400px;
     
 }
 
