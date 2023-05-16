@@ -804,7 +804,8 @@ margin: -3%;
 
  .box-perros{
   display: inline-block;
-  width: min-content;
+  /*width: min-content;*/
+  max-width: 500px;
   }
   /*Agrego esto para ver si se arregla el responsive de la API*/
 
