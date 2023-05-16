@@ -2,9 +2,9 @@ let footerCAD = `
 <div class="footer-sections">
             <section class="footer-section">
                 <h2 class="footer-title">Enlaces de Interés</h2>
-                <p class="footer-txt">Instagram</p>
-                <p class="footer-txt">Facebook</p>
-                <p class="footer-txt">Youtube</p>
+                <a href="https://www.instagram.com/"><p class="footer-txt">Instagram</p></a>
+                <a href="https://www.facebook.com/"><p class="footer-txt">Facebook</p></a>
+                <a href="https://www.youtube.com/"><p class="footer-txt">Youtube</p></a>
             </section>
             <section class="footer-section">
                 <h2 class="footer-title">Contacto</h2>
