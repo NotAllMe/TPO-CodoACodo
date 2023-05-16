@@ -807,6 +807,14 @@ margin: -3%;
   /*width: min-content;*/
   max-width: 500px;
   }
+
+  .box-principal-perros{
+    
+    max-width: 500px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
   /*Agrego esto para ver si se arregla el responsive de la API*/
 
 }
