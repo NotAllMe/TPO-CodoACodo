@@ -809,11 +809,8 @@ margin: -3%;
   }
 
   .box-principal-perros{
+    justify-content: space-around;
     
-    width: min-content;
-    justify-content: center;
-  }
-
 }
 
 /*Estilos Contacto*/
