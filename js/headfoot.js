@@ -30,7 +30,7 @@ document.querySelector(".main-header").innerHTML = headerCAD;
 let footerCAD = `
 <div class="footer-sections">
             <section class="footer-section">
-                <h2 class="footer-title">Enlaces de Interés</h2>
+                <h2 class="footer-title">Enlaces de interés</h2>
                 <a href="https://www.instagram.com/"><p class="footer-txt">Instagram</p></a>
                 <a href="https://www.facebook.com/"><p class="footer-txt">Facebook</p></a>
                 <a href="https://www.youtube.com/"><p class="footer-txt">Youtube</p></a>
@@ -41,13 +41,13 @@ let footerCAD = `
                 <p class="footer-txt">Correo: refugiohuellitasdeamor@corrreo.com</p>
             </section>
             <section class="footer-section">
-                <h2 class="footer-title">Suscribete al Boletín Mensual</h2>
-                <p class="footer-txt">Entérate antes de todas las Novedades</p>
+                <h2 class="footer-title">Boletín mensual</h2>
+                <p class="footer-txt">Subcribite y entérate antes de todas las novedades</p>
             </section>
             <section class="footer-section">
-                <h2 class="footer-title">Politicas de Privacidad</h2>
+                <h2 class="footer-title">Políticas de privacidad</h2>
                 <p class="footer-txt">Cookies</p>
-                <p class="footer-txt">Terminos y Condiciones</p>
+                <p class="footer-txt">Términos y condiciones</p>
             </section>
         </div>
         <p class="copy">Refugio Huellitas de Amor - © 2023 - Todos los Derechos Reservados</p>
