@@ -9,7 +9,7 @@ a {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  }
+}
 
 
 img {
@@ -37,7 +37,8 @@ img {
   font-display: flex;
 }
 
-.palabra2,  .palabra3{
+.palabra2,
+.palabra3 {
   color: #ff4e00;
   font-display: flex;
 }
@@ -280,18 +281,19 @@ img {
   font-size: 2em;
   color: #ff4e00;
 }
+
 /*Estilos Comunidad*/
 
-.box-principal-perros{
+.box-principal-perros {
 
-display:inline-flex;
+  display: inline-flex;
 
 }
 
-.nosotros{
- 
+.nosotros {
+
   font-weight: 50;
-  text-rendering:optimizeLegibility;
+  text-rendering: optimizeLegibility;
   border-style: inset;
   border-radius: 20px;
   border-width: 3px;
@@ -305,7 +307,7 @@ display:inline-flex;
   box-shadow: 0 0 20px rgb(119, 119, 119);
 }
 
-#app{
+#app {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -322,17 +324,18 @@ display:inline-flex;
   margin: 8%;
   padding: 2%;
   box-shadow: 0 0 20px rgb(119, 119, 119);
- 
+
 }
-.adoptados{
-  
+
+.adoptados {
+
   width: 350px;
   height: 200px;
   object-fit: scale-down;
 }
 
 /*Estilos Apoyo*/
-.flyer{
+.flyer {
 
   background-color: rgb(174, 174, 174);
   padding: 2%;
@@ -350,44 +353,45 @@ display:inline-flex;
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 0 20px rgb(52, 51, 51);
-  
+
 }
 
 .main-apoyo {
   padding: 10px;
 
 }
+
 .tips-title-apoyo {
   margin: 30px auto;
   text-align: center;
   color: #212121;
   font-size: 2em;
-  
+
 }
 
 .apoyo-title {
-  
+
   margin: 20px auto;
   text-align: center;
   color: #212121;
   font-size: 1.5em;
-  
+
 }
 
 .apoyo-tips {
 
   margin-bottom: 60px;
   text-align: center;
-  display:grid;
+  display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
- 
+
 
 }
 
 .apoyo-icon {
   width: 100px;
-  }
+}
 
 .tip-apoyo:hover {
   border: solid #ccc;
@@ -399,19 +403,19 @@ display:inline-flex;
   border-color: #212121;
   border-width: 1px;
   box-shadow: 0 0 10px black;
-  
-  
+
+
 }
 
 .tip-ayuda {
-  
+
   padding: 5px;
   margin-bottom: 2%;
   text-align: center;
 
 }
 
-.tip-txt-apoyo{
+.tip-txt-apoyo {
   font-size: 18px;
   text-align: justify;
   margin: 20px;
@@ -459,79 +463,79 @@ display:inline-flex;
 }
 
 @media screen and (max-width: 600px) {
- 
 
-.footer-section {
-  padding: 10px;
+
+  .footer-section {
+    padding: 10px;
+  }
 }
-} 
 
 
 .copy {
   color: #ffffff;
 }
 
-  .icon-menu {
-    display: none;
-  }
+.icon-menu {
+  display: none;
+}
 
-  .main-header .container-flex {
-    display: flex;
-    justify-content: space-between;
-  }
+.main-header .container-flex {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .main-header-container {
-    padding-top: 10px;
-  }
+.main-header-container {
+  padding-top: 10px;
+}
 
-  .main-header-title {
-    width: 100%;
-    font-size: 3em;
-    margin: 20px;
-  }
+.main-header-title {
+  width: 100%;
+  font-size: 3em;
+  margin: 20px;
+}
 
-  .barra-nav {
-    visibility: visible;
-    opacity: 1;
-    margin-left: 0px;
-    width: 100%;
-    margin-top: 0px;
-  }
+.barra-nav {
+  visibility: visible;
+  opacity: 1;
+  margin-left: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
 
-  .boton-nav {
-    display: inline-flex;
-  }
+.boton-nav {
+  display: inline-flex;
+}
 
-  .menu {
-    position: static;
-    display: flex;
-    background: none;
-  }
+.menu {
+  position: static;
+  display: flex;
+  background: none;
+}
 
-  .menu-link {
-    color: #333;
-  }
+.menu-link {
+  color: #333;
+}
 
-  .menu-link:hover {
-    color: black;
-    font-weight: bolder;
-  }
+.menu-link:hover {
+  color: black;
+  font-weight: bolder;
+}
 
-  .main {
-    padding: 0 40px;
-  }
+.main {
+  padding: 0 40px;
+}
 
-  .container-tips {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-  }
+.container-tips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
 
- 
 
-  .copy {
-    text-align: center;
-  }
+
+.copy {
+  text-align: center;
+}
 
 
 .botonimagen1 {
@@ -680,48 +684,49 @@ display:inline-flex;
       "tarjetas tarjetas"
       "tarjetas tarjetas"
       "tarjetas tarjetas";
-     }
+  }
 
   .container-flex {
-      flex-direction: column;
-    }
+    flex-direction: column;
+  }
 
-    .apoyo-tips {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }  
+  .apoyo-tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .container-tips {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-    }
-  
-    .container-tips .tip:nth-child(3) {
-      grid-column: 1 / span 2;
-    }
+  .container-tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .container-tips .tip:nth-child(3) {
+    grid-column: 1 / span 2;
+  }
+
   .footer-sections {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr)
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .footer-section {
+    padding: 10px;
+  }
+
+
 }
 
-.footer-section {
-  padding: 10px;
-}
-    
-
-}
 
 
-
-.divlogo{
+.divlogo {
   display: flex;
   padding-top: 10px;
   justify-content: left;
- 
+
 }
 
-.divbotonheader{
+.divbotonheader {
   display: flex;
 }
 
@@ -731,7 +736,7 @@ display:inline-flex;
     justify-content: center;
     align-items: center;
     grid-template-areas:
-     "tarjetas"
+      "tarjetas"
       "tarjetas"
       "tarjetas"
       "tarjetas"
@@ -741,12 +746,14 @@ display:inline-flex;
       "tarjetas"
       "tarjetas";
   }
+
   .barra-nav {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
+
   .container-flex {
     flex-direction: column;
     justify-content: left;
@@ -755,7 +762,7 @@ display:inline-flex;
     margin: 0
   }
 
-  .divlogo{
+  .divlogo {
     display: flex;
     width: 75%;
     justify-content: left
@@ -778,40 +785,42 @@ display:inline-flex;
     display: block
   }
 
-  .apoyo-tips{
-  display:block;
+  .apoyo-tips {
+    display: block;
   }
-  .tip-txt-apoyo{
+
+  .tip-txt-apoyo {
     font-size: 15px;
     margin: 10%;
   }
 
-  .nosotros{
+  .nosotros {
     padding-left: 0;
     padding-right: 0;
   }
+
   .footer-sections {
     display: flex;
     flex-direction: column;
   }
 
- .box-perros{
-  display: inline-block;
-  width: min-content;
-  
+  .box-perros {
+    display: inline-block;
+    width: min-content;
+
   }
 
-  .box-principal-perros{
+  .box-principal-perros {
     justify-content: space-around;
     max-width: 400px;
-   }
   }
+}
 
 /*Estilos Contacto*/
 
 .contacto-container {
   display: grid;
-  background-color: rgba(235, 141, 34,0.1);
+  background-color: rgba(235, 141, 34, 0.1);
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   max-width: 1420px;
@@ -885,9 +894,10 @@ display:inline-flex;
 }
 
 .contacto-iframe-div {
-  display: inline;        
+  display: inline;
 }
 
-.contacto-textarea, .contacto-input{
-  font-family: 'Tangerine',sans-serif;
+.contacto-textarea,
+.contacto-input {
+  font-family: 'Tangerine', sans-serif;
 }
