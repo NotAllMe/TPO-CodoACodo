@@ -6,20 +6,11 @@ a {
   text-decoration: none
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('./fonts/Poppins-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'Tangerine';
-  src: url('http.//fonts.googleapis.com/cssamily=Tangerine');
-}
-
 body {
-  font-family: 'Tangerine', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-}
+  }
+
 
 img {
   display: block;
@@ -31,6 +22,7 @@ img {
   padding: 0px;
   border: 0px;
   margin: 40px;
+  margin-block-start: auto;
 }
 
 .main-header-title {
@@ -501,9 +493,9 @@ display:inline-flex;
   .barra-nav {
     visibility: visible;
     opacity: 1;
-    margin-left: 40px;
+    margin-left: 0px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .boton-nav {
@@ -894,4 +886,8 @@ display:inline-flex;
 
 .contacto-iframe-div {
   display: inline;        
+}
+
+.contacto-textarea, .contacto-input{
+  font-family: 'Tangerine',sans-serif;
 }
