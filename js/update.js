@@ -46,7 +46,7 @@ const { createApp } = Vue
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro modificado")
-                    window.location.href = "./admin_update.html"; // navega a productos.html          
+                    window.location.href = "./adopcion_admin.html"; // navega a productos.html          
                 })
                 .catch(err => {
                     console.error(err);
