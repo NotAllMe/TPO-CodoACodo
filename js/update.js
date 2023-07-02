@@ -10,7 +10,7 @@ const { createApp } = Vue
         imagen:"",
         edadmeses:"",
         sexo:"",
-        url:'http://tfohuellitas.pythonanywhere.com/mascotas/'+id,
+        url:'https://tfohuellitas.pythonanywhere.com/mascotas/'+id,
        }  
     },
     methods: {
