@@ -12,7 +12,7 @@ const { createApp } = Vue
         id:0,
         nombre:"", 
         imagen:"",
-        edadmeses:0,
+        edadmeses:"",
         sexo:"",
     }  
     },
@@ -57,7 +57,7 @@ const { createApp } = Vue
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro grabado")
-                    window.location.href = "./admin.html";  // recarga productos.html
+                    window.location.href = "./adopcion_admin.html";  // recarga productos.html
                 })
                 .catch(err => {
                     console.error(err);
