@@ -901,3 +901,71 @@ img {
 .contacto-input {
   font-family: 'Tangerine', sans-serif;
 }
+
+/*ADMIN PRUEBA*/
+
+.card-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: "tarjetas tarjetas tarjetas"
+    "tarjetas tarjetas tarjetas"
+    "tarjetas tarjetas tarjetas"
+}
+
+.card {
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.card>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+
+}
+
+.imgcard {
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.imgcard:hover {
+  opacity: 0.2;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+
+}
+
+.card-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 300;
+  margin-bottom: 20px; 
+}
+.card-buttons:hover {
+  background-color: rgb(237, 102, 6);
+}
+
+
