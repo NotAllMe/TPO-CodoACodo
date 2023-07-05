@@ -909,13 +909,16 @@ padding: 0px;
 /*ADMIN PRUEBA*/
 
 .card-container {
-  display: grid;
+  /*display: grid;
   justify-content: center;
   align-items: center;
   grid-template-areas: "tarjetas tarjetas tarjetas"
     "tarjetas tarjetas tarjetas"
-    "tarjetas tarjetas tarjetas"
-}
+    "tarjetas tarjetas tarjetas"*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  }
 
 .card {
   width: 200px;
@@ -926,7 +929,9 @@ padding: 0px;
   display: inline-block;
   position: relative;
   text-align: center;
-}
+  width: 200px;
+  margin: 10px;
+  }
 
 .card>div {
   position: absolute;
@@ -936,7 +941,6 @@ padding: 0px;
   padding: 10px;
   margin: 0;
   text-align: center;
-
 }
 
 .imgcard {
@@ -955,13 +959,12 @@ padding: 0px;
   -ms-transition: opacity 500ms;
   transition: opacity 500ms;
 
-}
+  }
 
 .card-buttons{
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: auto;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
@@ -972,4 +975,37 @@ padding: 0px;
   background-color: rgb(237, 102, 6);
 }
 
+.nuevo-button {
+  display: inline-flex;
+  margin-top: 35px;
+  border-radius: 10px;
+  position:static;
+  border-color: #151515;
+  border-radius: 10px;
+  background-color: #ff5100;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+  max-width: 100px;
+  margin: 30px auto 0;
+  
+}
 
+.nuevo-button:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.title-admin {
+  margin-bottom: 10px;
+}
+
+.container{
+  display: inline-flex;
+
+}

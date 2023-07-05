@@ -15,7 +15,7 @@ createApp({
             edadmeses: "",
             sexo: "",
         }
-    },
+        },
     methods: {
         fetchData(url) {
             fetch(url)
