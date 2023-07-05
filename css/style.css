@@ -511,6 +511,11 @@ img {
   display: flex;
   background: none;
 }
+.copy > a {
+  text-decoration: none;
+  color:white;
+}
+
 
 .menu-link {
   color: #333;
