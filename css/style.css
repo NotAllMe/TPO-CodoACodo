@@ -572,6 +572,10 @@ img {
 
 /*Estilos Adopcion*/
 
+#app{
+padding: 0px;
+}
+
 .subtexto {
 
   font-size: 20px;
