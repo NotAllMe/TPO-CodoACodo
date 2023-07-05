@@ -909,12 +909,13 @@ padding: 0px;
 /*ADMIN PRUEBA*/
 
 .card-container {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  grid-template-areas: "tarjetas tarjetas tarjetas"
+ /* grid-template-areas: "tarjetas tarjetas tarjetas"
     "tarjetas tarjetas tarjetas"
-    "tarjetas tarjetas tarjetas"
+    "tarjetas tarjetas tarjetas"*/
   /*display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;*/
@@ -980,6 +981,7 @@ padding: 0px;
   justify-content:space-between;
   text-align: center;
   align-items: center;
+  margin-left: 10%;
 }
 
 
@@ -1005,6 +1007,7 @@ padding: 0px;
 
 .container-button{
   justify-content: center;
+  margin-right: 10%;
 }
 
 .nuevo-button:hover {
@@ -1012,8 +1015,9 @@ padding: 0px;
 }
 
 .title-admin {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: left;
+  
 }
 
 .container{
