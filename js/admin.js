@@ -65,7 +65,7 @@ createApp({
                 })
         },
         getImg(imagen) {
-            return './img/' + imagen;
+            return imagen;
         }
     },
     created() {
