@@ -50,7 +50,7 @@ let footerCAD = `
                 <p class="footer-txt">Términos y condiciones</p>
             </section>
         </div>
-        <p class="copy">Refugio Huellitas de Amor - © 2023 - Todos los Derechos Reservados</p>
+        <p class="copy">Refugio Huellitas de Amor - © 2023 - Todos los Derechos Reservados - <a href="adopcion_admin.html">Admin</a></p>
         `
 
 document.querySelector(".main-footer").innerHTML = footerCAD;
