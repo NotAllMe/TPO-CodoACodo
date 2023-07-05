@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=none, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=none, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>Refugio Huellitas de Amor</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,93 +17,41 @@
 <body>
     <header class="main-header"></header>
 
-    <div class="grandiv">
+    <div id="app">
+        <div v-if="error">
+            <p>Lo sentimos , algo no anda bien </p>
+        </div>
+        <div v-else>
+            <section v-if="cargando">
+                <div class="spinner-border"></div>
+                <p>Cargando .....</p>
+            </section>
+            <section v-else>
+                <div class="grandiv">
+                    <div class="tarjetas" v-for="mascota in mascotas" :key="mascota.id">
+                        <img class="imgtarjeta" :src="getImg(mascota.imagen)" alt="">
+                        <div>
+                            <p class="nombre">{{mascota.nombre}}</p>
+                        </div>
+                        <p class="subtexto">{{mascota.sexo}}</p>
+                        <p class="subtexto">{{mascota.edadmeses}}</p>
+                        <a class="adoptar" href="contacto.html">Adoptame</a>
+                    </div>
+                </div>
+        </div>
+        </tbody>
+        </table>
+    </div>
+    </section>
+    </div>
 
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 1.avif" alt="">
-            <div>
-                <p class="nombre">Cardito</p>
-            </div>
-            <p class="subtexto">Macho</p>
-            <p class="subtexto">6 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 3.avif" alt="">
-            <div>
-                <p class="nombre">Chicho</p>
-            </div>
-            <p class="subtexto">Macho</p>
-            <p class="subtexto">4 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 2.avif" alt="">
-            <div>
-                <p class="nombre">Pasca</p>
-            </div>
-            <p class="subtexto">Hembra</p>
-            <p class="subtexto">8 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 4.avif" alt="">
-            <div>
-                <p class="nombre">Gomito</p>
-            </div>
-            <p class="subtexto">Macho</p>
-            <p class="subtexto">9 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 5.avif" alt="">
-            <div>
-                <p class="nombre">Meme</p>
-            </div>
-            <p class="subtexto">Hembra</p>
-            <p class="subtexto">6 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 6.avif" alt="">
-            <div>
-                <p class="nombre">Ogrito</p>
-            </div>
-            <p class="subtexto">Macho</p>
-            <p class="subtexto">5 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 7.avif" alt="">
-            <div>
-                <p class="nombre">Chincha</p>
-            </div>
-            <p class="subtexto">Hembra</p>
-            <p class="subtexto">7 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 8.avif" alt="">
-            <div>
-                <p class="nombre">Pickle</p>
-            </div>
-            <p class="subtexto">Macho</p>
-            <p class="subtexto">4 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
-        <div class="tarjetas">
-            <img class="imgtarjeta" src="./img/perro 9.avif" alt="">
-            <div>
-                <p class="nombre">Luchi</p>
-            </div>
-            <p class="subtexto">Hembra</p>
-            <p class="subtexto">8 meses</p>
-            <a class="adoptar" href="contacto.html">Adoptame</a>
-        </div>
+    </div>
+    </div>
     </div><br>
     <footer class="main-footer"></footer>
     <script src="./js/headfoot.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script><!--Link de VUE-->
+    <script src="./js/admin.js"></script>
 </body>
 
 </html>
