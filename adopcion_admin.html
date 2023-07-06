@@ -46,7 +46,8 @@
                             <button class="card-buttons"><!-- Botones editar y eliminar -->
                             <a :href="`admin_update.html?id=${mascota.id}`" class="btn btn-primary">Editar</a>
                             </button>
-                            <button type="button" class="btn btn-danger card-buttons" @click="eliminar(mascota.id)">Eliminar</button>
+                            <button type="button" id="card-button-eliminar" class="btn btn-danger card-buttons" @click="eliminar(mascota.id)">Eliminar</button>
+
                         
                         </div>
                     </div>
