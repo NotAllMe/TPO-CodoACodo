@@ -1,0 +1,56 @@
+    {
+        "edadmeses": "6 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%201.avif",
+        "nombre": "Cardito",
+        "sexo": "Macho"
+    }
+    {
+        "edadmeses": "8 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%202.avif",
+        "nombre": "Pasca",
+        "sexo": "Hembra"
+    }
+    {
+        "edadmeses": "4 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%203.avif",
+        "nombre": "Chicho",
+        "sexo": "Macho"
+    }
+    {
+        "edadmeses": "9 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%204.avif",
+        "nombre": "Gomito",
+        "sexo": "Macho"
+    }
+    {
+        "edadmeses": "6 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%205.avif",
+        "nombre": "Meme",
+        "sexo": "Hembra"
+    }
+
+    {
+        "edadmeses": "5 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%206.avif",
+        "nombre": "Ogrito",
+        "sexo": "Macho"
+    }
+    {
+        "edadmeses": "7 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%207.avif",
+        "nombre": "Chincha",
+        "sexo": "Hembra"
+    }
+    {
+        "edadmeses": "4 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%208.avif",
+        "nombre": "Pickle",
+        "sexo": "Macho"
+    }
+    {
+        "edadmeses": "8 meses",
+        "imagen": "https://raw.githubusercontent.com/edledesma/TPO-CodoACodo/main/img/perro%209.avif",
+        "nombre": "Luchi",
+        "sexo": "Hembra"
+    }
+	
