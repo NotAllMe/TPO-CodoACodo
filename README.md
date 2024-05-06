@@ -1,2 +1,2 @@
 # TPO-CodoACodo
-Grupo Codo a Codo - Trabajo Practico Obligatio HTML/CSS/JavaScript
+Grupo Codo a Codo - Trabajo Practico Obligatorio HTML/CSS/JavaScript
