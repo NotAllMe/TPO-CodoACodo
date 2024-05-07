@@ -9,8 +9,21 @@ a {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../img/background.avif);
+  background-size: 40vmin;
+  opacity: 0.4;
+}
 
 img {
   display: block;
@@ -24,6 +37,22 @@ img {
   margin: 40px;
   margin-block-start: auto;
 }
+
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10.5vw;
+  z-index: -1;
+  background-color: rgba(235, 141, 34, 0.55);
+  background-size: 270px;
+  opacity: 0.9;
+
+}
+
+
 
 .main-header-title {
   text-align: left;
@@ -163,8 +192,8 @@ img {
 .slider::before {
   content: '';
   position: absolute;
-  z-index: 1;
-  width: 100%;
+  z-index: -1;
+  width: 100vw;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
@@ -264,6 +293,8 @@ img {
 .container-tips {
   margin-bottom: 60px;
   text-align: center;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.90);
 }
 
 .tip-txt {
@@ -434,17 +465,20 @@ img {
 
 }
 
-/*estilos del footer*/
+/*Estilos del footer*/
+
+
 
 .main-footer {
   background: #151515;
   color: white;
-  padding: 30px 20px;
+  padding: 0px 20px 30px 20px;
 }
 
 .footer-title {
   border-bottom: 2px dotted #ffffff;
   padding-bottom: 10px;
+  font-size: 24px;
 }
 
 .footer-txt {
@@ -459,7 +493,7 @@ img {
 
 .footer-section {
   flex-basis: 25%;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -473,7 +507,16 @@ img {
 
 .copy {
   color: #ffffff;
+  text-align: center;
+  margin: 0px;
+
 }
+
+.copy>a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .icon-menu {
   display: none;
@@ -482,6 +525,7 @@ img {
 .main-header .container-flex {
   display: flex;
   justify-content: space-between;
+
 }
 
 .main-header-container {
@@ -511,11 +555,6 @@ img {
   display: flex;
   background: none;
 }
-.copy > a {
-  text-decoration: none;
-  color:white;
-}
-
 
 .menu-link {
   color: #333;
@@ -535,13 +574,6 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-
-
-
-.copy {
-  text-align: center;
-}
-
 
 .botonimagen1 {
   background-image: url("../img/1.ico");
@@ -577,8 +609,8 @@ img {
 
 /*Estilos Adopcion*/
 
-#app{
-padding: 0px;
+#app {
+  padding: 0px;
 }
 
 .subtexto {
@@ -603,6 +635,17 @@ padding: 0px;
 
 }
 
+.tarjetas::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #ffffff;
+}
+
 .tarjetas>div {
   position: absolute;
   top: 0;
@@ -616,6 +659,8 @@ padding: 0px;
 
 .imgtarjeta {
   width: 100%;
+  max-width: 200px;
+  max-height: 200px;
   border-radius: 10px;
   position: relative;
   display: inline-block;
@@ -629,10 +674,10 @@ padding: 0px;
 }
 
 .nombre {
-  font-size: 25px;
+  font-size: 30px;
   padding: 2px;
   text-align: center;
-  margin: 50px;
+  margin: 0px;
   justify-content: center;
   align-items: center;
 
@@ -720,12 +765,9 @@ padding: 0px;
   }
 
   .footer-section {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
   }
-
-
 }
-
 
 
 .divlogo {
@@ -735,8 +777,18 @@ padding: 0px;
 
 }
 
+.img-res {
+  width: 20vw;
+  height: 10vw;
+}
+
 .divbotonheader {
   display: flex;
+
+}
+
+.botonheader {
+  margin: 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -760,15 +812,16 @@ padding: 0px;
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
+
   }
 
   .container-flex {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding: 0;
-    margin: 0
+    padding: 0px;
+    margin: 0;
   }
 
   .divlogo {
@@ -828,19 +881,27 @@ padding: 0px;
 /*Estilos Contacto*/
 
 .contacto-container {
+  background-color: rgba(235, 141, 34, 0.75);
   display: grid;
-  background-color: rgba(235, 141, 34, 0.1);
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: 0.9fr 0.1fr;
+  grid-template-rows: 2fr;
+  grid-template-areas:
+    "contacto-title contacto-title"
+    "contacto-form contacto-iframe"
+  ;
   max-width: 1420px;
   margin: 30px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 40px
 }
 
 .contacto-title {
+  display: contents;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 32px;
@@ -849,23 +910,45 @@ padding: 0px;
 
 .contacto-form {
   padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .contacto-label {
   font-size: 18px;
-  padding: 12px 0;
-  display: block;
+  width: 100%;
+  padding: 10px 0 0 0px;
+  display: flex;
+  align-items: center;
   font-weight: bold;
 }
+
+.contacto-label::after {
+  content: "";
+  margin-right: 5px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
 
 .contacto-input,
 .contacto-select,
 .contacto-textarea {
   font-size: 16px;
+  margin: 0px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 100%;
+  width: 100vw;
   max-width: 600px;
   min-height: 40px;
   resize: vertical;
@@ -887,10 +970,11 @@ padding: 0px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
   width: 100%;
-  max-width: 600px;
-  margin: 20px auto 0;
+  transition: background-color 0.2s ease-in-out;
+
+
+  margin: 20px 0px 20px 0px;
 }
 
 .contacto-button:hover {
@@ -898,12 +982,12 @@ padding: 0px;
 }
 
 .contacto-iframe {
-  margin-top: 15px;
-  min-height: 660px;
+  width: 700px;
+  height: 600px;
 }
 
 .contacto-iframe-div {
-  display: inline;
+  display: block;
 }
 
 .contacto-textarea,
@@ -918,15 +1002,18 @@ padding: 0px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
- /* grid-template-areas: "tarjetas tarjetas tarjetas"
+  /* grid-template-areas: "tarjetas tarjetas tarjetas"
     "tarjetas tarjetas tarjetas"
     "tarjetas tarjetas tarjetas"*/
   /*display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;*/
-  }
+}
 
 .card {
+  display:flex;
+  align-items: center;
+  align-content: center;
   width: 200px;
   border: 2px solid black;
   border-radius: 10px;
@@ -937,7 +1024,19 @@ padding: 0px;
   text-align: center;
   width: 200px;
   margin: 10px;
-  }
+}
+
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #ffffff;
+}
 
 .card>div {
   position: absolute;
@@ -965,7 +1064,7 @@ padding: 0px;
   -ms-transition: opacity 500ms;
   transition: opacity 500ms;
 
-  }
+}
 
 .card-buttons {
   background-color: #e73d9b;
@@ -989,13 +1088,14 @@ padding: 0px;
   color: #fff;
   text-decoration:none;
 }
+
 .card-buttons:hover {
   background-color: rgb(237, 102, 6);
 }
 
-.title-container{
-  display:flex;
-  justify-content:space-between;
+.title-container {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
   margin-left: 10%;
@@ -1003,7 +1103,7 @@ padding: 0px;
 
 
 .nuevo-button {
-  
+
   border-radius: 10px;
   border-color: #151515;
   border-radius: 10px;
@@ -1019,10 +1119,10 @@ padding: 0px;
   width: 100%;
   max-width: 100px;
   margin: 0;
-  
+
 }
 
-.container-button{
+.container-button {
   justify-content: center;
   margin-right: 10%;
 }
@@ -1034,10 +1134,10 @@ padding: 0px;
 .title-admin {
   margin-bottom: 20px;
   text-align: left;
-  
+
 }
 
-.container{
+.container {
   display: inline-flex;
 
 }

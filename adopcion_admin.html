@@ -37,7 +37,7 @@
                     <div class="card-container">
                         <div class="card" v-for="(mascota, index) in mascotas" :key="mascota.id">
                             <img class="imgtarjeta" :src="getImg(mascota.imagen)" alt="">
-                            <h2 class="nombre">{{ mascota.nombre }}</h2>
+                            <h2 class="nombre">{{mascota.nombre }}</h2>
                             <!-- Resto del contenido de la tarjeta -->
                             <p class="subtexto">Edad: {{ mascota.edadmeses }}</p>
                             <p class="subtexto">Sexo: {{ mascota.sexo }}</p>
@@ -47,7 +47,6 @@
                             <a :href="`admin_update.html?id=${mascota.id}`" class="btn btn-primary">Editar</a>
                             </button>
                             <button type="button" id="card-button-eliminar" class="btn btn-danger card-buttons" @click="eliminar(mascota.id)">Eliminar</button>
-
                         
                         </div>
                     </div>

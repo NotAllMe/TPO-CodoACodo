@@ -16,38 +16,32 @@
 
 <body>
     <header class="main-header"></header>
-
-    <div id="app">
-        <div v-if="error">
-            <p>Lo sentimos , algo no anda bien </p>
-        </div>
-        <div v-else>
-            <section v-if="cargando">
-                <div class="spinner-border"></div>
-                <p>Cargando .....</p>
-            </section>
-            <section v-else>
-                <div class="grandiv">
-                    <div class="tarjetas" v-for="mascota in mascotas" :key="mascota.id">
-                        <img class="imgtarjeta" :src="getImg(mascota.imagen)" alt="">
-                        <div>
-                            <p class="nombre">{{mascota.nombre}}</p>
+    <div class="content">
+        <div id="app">
+            <div v-if="error">
+                <p>Lo sentimos , algo no anda bien </p>
+            </div>
+            <div v-else>
+                <section v-if="cargando">
+                    <div class="spinner-border"></div>
+                    <p>Cargando .....</p>
+                </section>
+                <section v-else>
+                    <div class="grandiv">
+                        <div class="tarjetas" v-for="mascota in mascotas" :key="mascota.id">
+                            <img class="imgtarjeta" :src="getImg(mascota.imagen)" alt="">
+                            <div>
+                                <p class="nombre">{{mascota.nombre}}</p>
+                            </div>
+                            <p class="subtexto">{{mascota.sexo}}</p>
+                            <p class="subtexto">{{mascota.edadmeses}}</p>
+                            <a class="adoptar" href="contacto.html">Adoptame</a>
                         </div>
-                        <p class="subtexto">{{mascota.sexo}}</p>
-                        <p class="subtexto">{{mascota.edadmeses}}</p>
-                        <a class="adoptar" href="contacto.html">Adoptame</a>
                     </div>
-                </div>
+                </section>
+            </div>
         </div>
-        </tbody>
-        </table>
     </div>
-    </section>
-    </div>
-
-    </div>
-    </div>
-    </div><br>
     <footer class="main-footer"></footer>
     <script src="./js/headfoot.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script><!--Link de VUE-->

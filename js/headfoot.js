@@ -3,7 +3,7 @@ let headerCAD = `
         <div class="container-flex">
             <div class="divlogo">
                 <a href="index.html">
-                    <img src="./img/LOGOpoppins.svg" alt="Logo" height="200">
+                    <img src="./img/LOGOpoppins.svg" alt="Logo" class="img-res">
                 </a>
             </div>
             <div class="divbotonheader">
